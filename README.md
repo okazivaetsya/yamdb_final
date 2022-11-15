@@ -67,9 +67,12 @@ USER=<username для подключения к серверу>
 HOST=<IP сервера>
 PASSPHRASE=<пароль для сервера, если он установлен>
 SSH_KEY=<ваш SSH ключ>
-TELEGRAM_TO=<ID чата, в который придет сообщение. Получить можно тут [@userinfobot](https://t.me/userinfobot)
-TELEGRAM_TOKEN=<токен вашего бота. Получить можно тут[@BotFather](https://t.me/BotFather)
+TELEGRAM_TO=<ID чата, в который придет сообщение. 
+TELEGRAM_TOKEN=<токен вашего бота. 
 ```
+Узнать ID чата можно тут [@userinfobot](https://t.me/userinfobot)
+Получить TOKEN телеграм бота можно тут [@BotFather](https://t.me/BotFather)
+
 7. Запустите docker-compose:
 ```bash
 sudo docker-compose up -d --build 
