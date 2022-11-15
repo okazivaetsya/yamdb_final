@@ -80,6 +80,7 @@ docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic --no-input 
 ```
 
+
 ### Примеры запросов к API
 Доступные энд-поинты:
 GET-запросы
