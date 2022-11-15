@@ -9,7 +9,7 @@ services:
       - .env
 
   web:
-    image: okazivaetsya/api_yamdb:latest
+    image: okazivaetsya/yambd_final:latest
     restart: always
     volumes:
       - static_value:/app/static/
