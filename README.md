@@ -1,5 +1,6 @@
 # Проект YAMDB
 ![workflow status badge](https://github.com/okazivaetsya/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
+
 Проект собирает отзывы и оченки к различным произведениям. 
 
 
@@ -67,7 +68,7 @@ HOST=<IP сервера>
 PASSPHRASE=<пароль для сервера, если он установлен>
 SSH_KEY=<ваш SSH ключ>
 TELEGRAM_TO=<ID чата, в который придет сообщение. Получить можно тут [@userinfobot](https://t.me/userinfobot)
-TELEGRAM_TOKEN=<токен вашего бота. Получить можно тут [@userinfobot](https://t.me/BotFather)
+TELEGRAM_TOKEN=<токен вашего бота. Получить можно тут[@BotFather](https://t.me/BotFather)
 ```
 7. Запустите docker-compose:
 ```bash
@@ -82,9 +83,8 @@ docker-compose exec web python manage.py collectstatic --no-input
 
 
 ### Ссылка на развернутый проект
-```
-[](http://okazivaetsya.ddns.net)
-```
+http://okazivaetsya.ddns.net
+
 
 
 ### Примеры запросов к API
